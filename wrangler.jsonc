@@ -12,7 +12,7 @@
 			"kv_namespaces": [
 				{
 					"binding": "CRAWL_JOB_STORE",
-					"id": "28f658dc2ef64b999d37138a7d95e1c5"
+					"id": "2234ff4a991f4f9b92e9ac9cb77c9a59"
 				}
 			],
 			"vars": {
@@ -54,5 +54,12 @@
 				]
 			}
 		}
-	}
+	},
+	"kv_namespaces": [
+		{
+			"binding": "CRAWL_JOB_STORE",
+			"id": "2234ff4a991f4f9b92e9ac9cb77c9a59",
+			"remote": true
+		}
+	]
 }
