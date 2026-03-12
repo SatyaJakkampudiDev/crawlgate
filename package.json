@@ -1,0 +1,29 @@
+{
+  "name": "crawlgate",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "wrangler dev --env development",
+    "deploy:dev": "wrangler deploy --env development --minify",
+    "deploy:staging": "wrangler deploy --env staging --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.3",
+    "@mendable/firecrawl-js": "^4.3.5",
+    "hono": "^4.9.7",
+    "p-limit": "^7.1.1",
+    "scrapingbee": "^1.7.6",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.3.0",
+    "@cloudflare/workers-types": "^4.20250913.0",
+    "@types/node": "^24.4.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.4.0"
+  }
+}
