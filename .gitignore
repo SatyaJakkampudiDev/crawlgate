@@ -4,4 +4,3 @@ dist/
 .dev.vars
 .dev.vars.*
 *.local
-README.md
